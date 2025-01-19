@@ -22,6 +22,8 @@
     
     table.list-max, table.list { display: block; overflow-x: auto; white-space: nowrap; }
     table.list-max th:first-child, table.list-max td:first-child, table.list.max-width th:first-child, table.list.max-width td:first-child { width: 100%; }
+
+    #usermenu-avatar { position: static; display: inline-block; margin-right: 5px; }
     
     /* Overview */
     #index-table td { display: block; }
