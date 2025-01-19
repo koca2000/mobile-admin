@@ -1,0 +1,21 @@
+{
+    "$schema": "../../../system/schema/extend.json",
+    "name": "Mobile Admin",
+    "description": "Optimizes the administration for mobile devices",
+    "version": "0.0.1",
+    "environment": {
+        "system": "^8.0"
+    },
+    "authors": [
+        {
+            "name": "koca2000",
+            "url": "https://github.com/koca2000"
+        }
+    ],
+    "langs": {},
+    "events": [],
+    "events.web": [],
+    "events.admin": [
+        {"event": "admin.head", "script": "event/AdminHeadEvent.php"}
+    ]
+}
